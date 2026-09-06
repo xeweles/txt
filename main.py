@@ -60,7 +60,7 @@ def rewriting(file_for_writing: str, base_path, location):
         opening_files.close()
 
 
-file_for_writing = os.path.abspath('\\Users\\maxva\\OneDrive\\Рабочий стол\\files\\texts\\2.txt')
+file_for_writing = os.path.abspath('\\Users\\...\\OneDrive\\Рабочий стол\\files\\texts\\2.txt')
 base_path = os.getcwd()
-location = os.path.abspath('\\Users\\maxva\\OneDrive\\Рабочий стол\\files\\texts')
+location = os.path.abspath('\\Users\\...\\OneDrive\\Рабочий стол\\files\\texts')
 rewriting(file_for_writing, base_path, location)
